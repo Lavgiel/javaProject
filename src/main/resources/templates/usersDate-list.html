@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="fans" lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+<div th:switch="${users}">
+    <h2 th:case="null">No users found!</h2>
+    <div>
+        <div th:case="*">
+            <div>
+                <h3>Users</h3>
+            </div>
+            <table>
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="user : ${users}">
+                    <td th:text="${user.id}"></td>
+                    <td th:text="${user.name}"></td>
+                    <td th:text="${user.age}"></td>
+                    <td th:text="${user.gender}"></td>
+                    <td><a th:href="@{user-delete/{id}(id=${user.id})}">Delete</a></td>
+                </tr>
+                </tbody>
+            </table>
+            <p><a href="/user-create">Add user</a></p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

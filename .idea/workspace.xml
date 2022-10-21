@@ -4,50 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c52129b-5afd-475b-acfa-040272ca2854" name="Default Changelist" comment="some change">
-      <change beforePath="$PROJECT_DIR$/target/classes/sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql.txt" afterDir="false" />
+    <list default="true" id="a8762007-ebdb-430a-badc-d5da9e4797a9" name="Changes" comment="userDates">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="27EWXKFvhgkCT82DUCRVBuWFB7U" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2G5RbSfGq80t4YhbQxFZZvKYjYE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MuamProjApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.sfedu.muam_proj.MuamProjApplication" />
+      <module name="muam_proj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sfedu.muam_proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MuamProjApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c52129b-5afd-475b-acfa-040272ca2854" name="Default Changelist" comment="" />
-      <created>1648885765667</created>
+      <changelist id="a8762007-ebdb-430a-badc-d5da9e4797a9" name="Changes" comment="" />
+      <created>1665676539267</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648885765667</updated>
+      <updated>1665676539267</updated>
     </task>
-    <task id="LOCAL-00001" summary="some change">
-      <created>1648886362600</created>
+    <task id="LOCAL-00001" summary="userDates">
+      <created>1665765518939</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1648886362600</updated>
+      <updated>1665765518939</updated>
     </task>
-    <task id="LOCAL-00002" summary="some change two">
-      <created>1648888161495</created>
+    <task id="LOCAL-00002" summary="userDates">
+      <created>1665766144445</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1648888161495</updated>
+      <updated>1665766144445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="userDates">
+      <created>1665766225458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665766225459</updated>
+    </task>
+    <task id="LOCAL-00004" summary="userDates">
+      <created>1665766448321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665766448321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -55,19 +106,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/Grober" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -75,8 +114,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some change" />
-    <MESSAGE value="some change two" />
-    <option name="LAST_COMMIT_MESSAGE" value="some change two" />
+    <MESSAGE value="userDates" />
+    <option name="LAST_COMMIT_MESSAGE" value="userDates" />
   </component>
 </project>

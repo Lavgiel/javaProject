@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="#" th:action="@{/pair-create}" th:object="${pair}" method="post">
+    <label for="user1_id">user1_id</label>
+    <input type="text" th:field="*{user1}" id="user1_id" placeholder="User1">
+    <label for="user2_id">user2_id</label>
+    <input type="text" th:field="*{user2}" id="user2_id" placeholder="User2">
+    <input type="submit" value="Create User">
+</form>
+</body>
+</html>

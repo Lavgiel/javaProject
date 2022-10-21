@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>List of pairs</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+<div th:switch="${pairs}">
+  <h2 th:case="null">No pairs found!</h2>
+  <div>
+    <div th:case="*">
+      <div>
+        <h3>Pairs</h3>
+      </div>
+      <table>
+        <thead>
+        <tr>
+          <th>Id</th>
+          <th>User1_name</th>
+          <th>User2_name</th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="pair : ${pairs}">
+          <td th:text="${pair.id}"></td>
+          <td th:text="${pair.user1.name}"></td>
+          <td th:text="${pair.user2.name}"></td>
+          <td><a th:href="@{pair-delete/{id}(id=${pair.id})}">Delete</a></td>
+        </tr>
+        </tbody>
+      </table>
+      <p><a href="/pair-create">Add pair</a></p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
